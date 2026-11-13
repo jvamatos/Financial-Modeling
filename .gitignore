@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+
+# OS / Office temp files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

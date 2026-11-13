@@ -1,0 +1,9 @@
+jupyterlab
+numpy
+scipy
+pandas
+matplotlib
+yfinance
+quantstats
+fredapi
+pycoingecko
