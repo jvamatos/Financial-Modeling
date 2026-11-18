@@ -4,14 +4,16 @@ Course materials for **2270 Financial Modelling** (Masters in Finance, T2): desi
 
 ## Contents
 
-| # | Topic | Materials |
-|---|-------|-----------|
-| 1 | Principles of financial modelling & basic financial calculations (time value of money, PV/FV, IRR) | [Slides](lectures/01-financial-calculations/Lecture1_Intro.pdf) · [Notebook](lectures/01-financial-calculations/Lecture1_financial_calculations.ipynb) |
-| 2 | Data structures & NumPy; bond valuation | [Part 1: Python & NumPy](lectures/02-numpy-and-bond-valuation/Lecture2_python_numpy.ipynb) · [Part 2: Bond valuation](lectures/02-numpy-and-bond-valuation/Lecture2_bond_valuation.ipynb) |
-| 3 | Getting data via APIs (FRED, CoinGecko) & pandas; portfolio strategies (1/n) | [Part 1: APIs & pandas](lectures/03-data-apis-and-portfolios/Lecture3_apis_pandas.ipynb) · [Part 2: Portfolio strategies](lectures/03-data-apis-and-portfolios/Lecture3_portfolio_strategies.ipynb) |
-| 4 | Portfolio backtesting | [Notebook](lectures/04-backtesting/Lecture4_backtesting.ipynb) |
+| # | Topic | Materials | Summary |
+|---|-------|-----------|---------|
+| 1 | Principles of financial modelling & basic financial calculations (time value of money, PV/FV, IRR) | [Slides](lectures/01-financial-calculations/Lecture1_Intro.pdf) · [Notebook](lectures/01-financial-calculations/Lecture1_financial_calculations.ipynb) | [Resumo](summaries/01-financial-calculations.md) |
+| 2 | Data structures & NumPy; bond valuation | [Part 1: Python & NumPy](lectures/02-numpy-and-bond-valuation/Lecture2_python_numpy.ipynb) · [Part 2: Bond valuation](lectures/02-numpy-and-bond-valuation/Lecture2_bond_valuation.ipynb) | [Resumo](summaries/02-numpy-and-bond-valuation.md) |
+| 3 | Getting data via APIs (FRED, CoinGecko) & pandas; portfolio strategies (1/n) | [Part 1: APIs & pandas](lectures/03-data-apis-and-portfolios/Lecture3_apis_pandas.ipynb) · [Part 2: Portfolio strategies](lectures/03-data-apis-and-portfolios/Lecture3_portfolio_strategies.ipynb) | [Resumo](summaries/03-data-apis-and-portfolios.md) |
+| 4 | Portfolio backtesting | [Notebook](lectures/04-backtesting/Lecture4_backtesting.ipynb) | [Resumo](summaries/04-backtesting.md) |
 
 **Reference:** [Formula sheet](reference/2270_Formulae.pdf)
+
+**Summaries:** [all lecture summaries](summaries/README.md) (in Portuguese), including Lecture 5 and the DataCamp Python basics.
 
 ## Repository layout
 
@@ -22,6 +24,7 @@ lectures/
   03-data-apis-and-portfolios/
   04-backtesting/
 reference/          formula sheet and other handouts
+summaries/          revision summaries per lecture (notes, traps, practice questions)
 requirements.txt    Python packages used by the notebooks
 ```
 
