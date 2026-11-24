@@ -341,17 +341,25 @@ value = np.sum(flows[1:] / (1 + r_req)**times[1:])                # valor à tax
 
 ### Números de referência da Lecture 5
 
+Valores do notebook executado a 24/11/2026 (sementes 17 e 2270). Os que vêm do FRED mudam com os dados.
+
+
 | Item | Valor |
 | --- | --- |
 | Janela de estimação / evento (eleições EUA) | \[−100, −11\] (90 dias) / \[−10, +10\] (21 dias) |
 | Intervalo de confiança de 95% | ±1,96 desvios padrão |
 | Reforma: 6.000 €/ano, 40 anos, 7% certos | ≈ 1,28 M€ |
-| Reforma simulada: P(abaixo de 1,28 M€) | cerca de dois terços |
+| Reforma simulada: média / mediana | 1,28 M€ / 0,91 M€ |
+| Reforma simulada: percentil 5 / 95 | 0,26 M€ / 3,52 M€ |
+| Reforma simulada: P(abaixo de 1,28 M€) | 66% (cerca de dois terços) |
 | LBO TascaCo: IRR do caso base | 17,8% (hurdle 15%) |
-| LBO simulado: P(bater o hurdle) / P(perder dinheiro) | ≈ 6 em 10 / ≈ 1 em 10 |
+| LBO simulado: mediana do IRR | 17,2% (sem dívida: 11,3%) |
+| LBO simulado: P(bater o hurdle) / P(perder dinheiro) / P(wipeout) | 58% / 10% (sem dívida: 2%) / 0,4% |
+| Dados anuais USREC 1855–2025: P(recessão) / P(R→R) / P(B→B) | 0,28 / 0,40 / 0,76 |
 | Volatilidade mensal com 18% anual | 18% / √12 ≈ 5,2% |
-| P(perder dinheiro em 10 anos), N(7%, 18%) | ≈ 17% |
-| Empréstimo 6% cash + 4% PIK a 97: yield prometida | ≈ 10,75% |
+| P(perder dinheiro em 10 anos), N(7%, 18%) | ≈ 17% (o código da IA com o bug dá 0,00%) |
+| Empréstimo 6% cash + 4% PIK a 97: yield prometida | 10,75% |
+| Empréstimo: valor com Treasury a 4,93% (taxa exigida 9,43%) | 102,36 |
 
 ### Testa-te: Lecture 5
 
