@@ -34,6 +34,8 @@ requirements.txt    Python packages used by the notebooks
 
 ## Running the notebooks
 
+The notebooks are saved with their outputs (printed results and charts), so you can read the results on GitHub without running anything. A few cells are left without output: the blank Practice cells in Lecture 2 (you fill them in) and the FRED API cells in Lecture 3, which need your own key.
+
 The notebooks run as-is in Google Colab. To run them locally:
 
 ```bash
