@@ -9,9 +9,7 @@ Resumos de revisão do curso, um por lecture: notas, complementos dos notebooks,
 | 2 | [NumPy e Bond Valuation](02-numpy-and-bond-valuation.md) | [Lecture 2](../lectures/02-numpy-and-bond-valuation/) |
 | 3 | [APIs, pandas e Estratégias de Portefólio](03-data-apis-and-portfolios.md) | [Lecture 3](../lectures/03-data-apis-and-portfolios/) |
 | 4 | [Backtesting](04-backtesting.md) | [Lecture 4](../lectures/04-backtesting/) |
-| 5 | [Event Studies e Monte Carlo](05-event-studies-and-monte-carlo.md) | ainda não está no repositório |
-
-O resumo da Lecture 5 tem só as notas (ainda sem armadilhas nem perguntas).
+| 5 | [Event Studies e Monte Carlo](05-event-studies-and-monte-carlo.md) | [Lecture 5](../lectures/05-event-studies-and-monte-carlo/) (Monte Carlo e empréstimo privado; o notebook de event studies ainda não está no repositório) |
 
 ## Como estudar cada lecture
 
